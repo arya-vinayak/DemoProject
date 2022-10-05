@@ -32,6 +32,15 @@ git commit -m "name of the file" -m "description"
 git push origin master
 
 
+#if we wanna create a new repository
+-> we will have to manually create one on github
+->after that we will have to our local machine and use the git init command
+->we need to connect the local repo to the one on git using
+git remote add origin repository_link
+->we can use the git remote -v command to see our repo connections
+->we can then create our desired files and then upload them the usual way
+
+
 #extras
 
 ls -la to check all the unhidden as well as the hidden files in the directory
